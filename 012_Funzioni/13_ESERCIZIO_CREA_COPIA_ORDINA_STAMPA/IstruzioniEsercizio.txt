@@ -1,0 +1,11 @@
+Scrivete un programma che generi un array con 10 numeri casuali interi compresi fra 1 e 100 (Math.random()*100+1) e li riordini in maniera crescente . Stampare l' array prima e dopo l’ordinamento. Utilizzate due funzioni: crea(a) (a è il nome dell’array vuoto che passi come parametro. Cioè devi fare let a=[] e poi fai crea(a) ) per generare 10 valori casuali(usa un ciclo for) e inseriscili (con push() ) man mano nell’array ricevuto come parametro e dopo avere chiamato crea(a) chiama stampa(a) per stamparlo (in console ad esempio).
+Nota che sort() modifica l’array di partenza. Ti servirà creare una copia dell’array cioè fare let aCopia=a.slice()
+Quindi passaggi da fare
+let a=[]
+crea(a)
+let aCopia = a.slice()
+stampa(a)
+stampa(aCopia)
+//ordina con sort l’array a
+stampa(a)
+stampa(aCopia)

@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+div.cassaforte {
+  width: 100%;
+  max-width: 500px;
+  border: 3px ridge rgb(8, 82, 8);
+  margin: 0 auto;
+  padding: 1em;
+  text-align: center;
+}
+
+label {
+  display: block;
+  color: rgb(8, 82, 8);
+  font-size: 1.3em;
+}
+
+input#combinazione {
+  font-size: 1.1em;
+  margin-top: 1em;
+  outline: none;
+  color: rgb(8, 82, 8);
+}
+
+button {
+  background-color: rgb(8, 82, 8);
+  color: white;
+  padding: 0.3em;
+  font-size: larger;
+  margin-top: 1em;
+}
+
+small {
+  color: rgb(106, 3, 3);
+  display: none;
+}
+
+small.visualizza-errore {
+  display: block;
+}
+
+div.success-message {
+  margin-top: 0.5em;
+  text-align: center;
+  font-size: 3em;
+  color: rgb(8, 82, 8);
+}
+
+.animate-success-message {
+  animation: scale-text 1s 3;
+}
+
+@keyframes scale-text {
+  from {
+    scale: 0.8;
+  }
+
+  50% {
+    scale: 2.5;
+  }
+
+  to {
+    scale: 0.2;
+  }
+}
